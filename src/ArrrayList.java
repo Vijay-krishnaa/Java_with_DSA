@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class ArrrayList {
     public static void main(String[] args) {
@@ -7,13 +9,16 @@ public class ArrrayList {
         arr.add(2);
         arr.add(3);
         arr.add(4);
-        System.out.println(arr.get(2));
-        System.out.println(arr.set(2,7));
+//        int i = 0;
+//        int j = arr.size() - 1;
+//        while (i < j) {
+//            int temp = arr.get(i);
+//            arr.set(i, arr.get(j));
+//            arr.set(j, temp);
+//            i++;
+//            j--;
+//        }
+        Collections.reverse(arr);
         System.out.println(arr);
-        for (Integer integer : arr) {
-            System.out.print(integer);
-
-        }
-
     }
 }
