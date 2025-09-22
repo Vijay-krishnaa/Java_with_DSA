@@ -17,7 +17,6 @@ public class CommonElements {
         int m = b.length;
         ArrayList<Integer> res = new ArrayList<>();
         int i = 0, j = 0;
-
         while (i < n && j < m) {
             if (a[i] == b[j]) {
                 res.add(a[i]);

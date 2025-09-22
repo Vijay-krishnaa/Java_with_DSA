@@ -15,7 +15,6 @@ public class mergeTwoArray {
         }
         for (int j : arr2) {
             arr3[k++] = j;
-
         }
         return arr3;
 
