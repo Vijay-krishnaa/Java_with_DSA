@@ -37,8 +37,8 @@ public class maximumCount {
         return ans;
     }
     public static void main(String[] args) {
-        int[] nums = {-3, -2, -1, 0, 0, 1, 2};
-        System.out.println(maximumCountt(nums));
+        int[] nums1 = {-3, -2, -1, 0, 0, 1, 2};
+        System.out.println(maximumCountt(nums1));
 
     }
 }
